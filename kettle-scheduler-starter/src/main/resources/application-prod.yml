@@ -1,8 +1,13 @@
 spring:
   datasource: # 数据库链接
-    url: jdbc:mysql://124.71.98.1:6006/bi_scheduler?characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
-    username: ifm
-    password: Ifm@2020
+    #本地服务器连接
+    url: jdbc:mysql://10.51.13.130:6006/bi_scheduler?characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: zhwyonly
+    password: Fmc123456
+    #华为云服务器连接
+#    url: jdbc:mysql://124.71.98.1:6006/bi_scheduler?characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+#    username: ifm
+#    password: Ifm@2020
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       connection-timeout: 18000000
