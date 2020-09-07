@@ -1,9 +1,9 @@
 spring:
   datasource: # 数据库链接
     #本地服务器连接
-    url: jdbc:mysql://10.51.13.130:6006/bi_scheduler?characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
-    username: zhwyonly
-    password: Fmc123456
+    url: jdbc:mysql://10.51.13.133:13306/bi_scheduler?characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: wuhe
+    password: Xhwl_Wh@2019
     #华为云服务器连接
 #    url: jdbc:mysql://124.71.98.1:6006/bi_scheduler?characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
 #    username: ifm
